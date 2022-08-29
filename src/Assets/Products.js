@@ -2,12 +2,14 @@ const Products = [
     {
         name:"Golden Shoe Firm Grip",
         colours:["Green", "Blue"],
-        img:""
+        img:"",
+        cost:15
     },
     {
         name:"Golden Shoe Comfort",
         colours:["Red", "Orange"],
-        img:""
+        img:"",
+        cost:20
     }
 ]
 

@@ -5,7 +5,8 @@ function NavBar() {
       <div>
         <div class="LogoName">Golden Shoe</div>
         <Link to={'..'}>Shop</Link>
-        <Link to={'..'}>Checkout</Link>
+        <Link to={'../checkout'}>Checkout</Link>
+        <Link to={'..'}>Return</Link>
       </div>
     );
   }
