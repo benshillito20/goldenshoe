@@ -1,9 +1,10 @@
 import {Link} from 'react-router-dom'
 
 function ShopItem({Product}) {
-  return (
-    <Link to ="">
-      ProductName
+    console.log("Product")
+    return (
+    <Link to={`/product/${Product.name}`}>
+      {Product.name}
     </Link>
   );
 }

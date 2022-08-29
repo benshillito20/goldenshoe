@@ -10,3 +10,5 @@ const Products = [
         img:""
     }
 ]
+
+export default Products
