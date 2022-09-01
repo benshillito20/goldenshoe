@@ -1,14 +1,13 @@
 import {useParams, useNavigate} from 'react-router-dom'
-import Products from '../Assets/Products';
 import NavBar from './NavBar';
 import {useState} from 'react';
 
-function ProductPurchase({addToCart}) {
+function ProductPurchase({addToCart, products}) {
     const params = useParams()
     const navigate = useNavigate()
-    const product = Products.find(findingProduct => findingProduct.name === params.productname)
+    const product = products.find(findingProduct => findingProduct.name === params.productname)
     const [size, setSize] = useState('6')
-    const [colour, setColour] = useState('')
+    const [colour, setColour] = useState(product.colours[0][0])
     return (
       <div>
         <NavBar/>
@@ -30,7 +29,7 @@ function ProductPurchase({addToCart}) {
           <label>Colour</label>
           <select onChange={(e) => setColour(e.target.value)}>
               {product.colours.map((colour) => (
-                <option value={colour}>{colour}</option>
+                <option value={colour[0]}>{colour[0]}</option>
               ))}
           </select>
         </div>

@@ -1,0 +1,95 @@
+{
+  "Orders": [
+    {
+      "name": "Golden Shoe Firm Grip",
+      "colour": "Blue",
+      "size": "6",
+      "orderDate": "Thu Sep 01 2022",
+      "orderCode": "23:59-1-8-2022-fUCK8",
+      "id": 1
+    },
+    {
+      "name": "Golden Shoe Comfort",
+      "colour": "Orange",
+      "size": "6",
+      "orderDate": "Thu Sep 01 2022",
+      "orderCode": "23:59-1-8-2022-fUCK8",
+      "id": 2
+    },
+    {
+      "name": "Golden Shoe Firm Grip",
+      "colour": "Blue",
+      "size": "6",
+      "orderDate": "Fri Sep 02 2022",
+      "orderCode": "0:0-2-8-2022-W7Wx5",
+      "id": 3
+    },
+    {
+      "name": "Golden Shoe Firm Grip",
+      "colour": "Blue",
+      "size": "6",
+      "orderDate": "Fri Sep 02 2022",
+      "orderCode": "0:1-2-8-2022-nEL2z",
+      "id": 4
+    }
+  ],
+  "Vouchers": [
+    {
+      "voucherID": "ArT12"
+    },
+    {
+      "voucherID": "A4462"
+    },
+    {
+      "voucherID": "67gAR"
+    }
+  ],
+  "Stock": [
+    {
+      "name": "Golden Shoe Firm Grip",
+      "colours": [
+        [
+          "Green",
+          100
+        ],
+        [
+          "Blue",
+          100
+        ]
+      ],
+      "img": "",
+      "cost": 36.99
+    },
+    {
+      "name": "Golden Shoe Comfort",
+      "colours": [
+        [
+          "Red",
+          100
+        ],
+        [
+          "Orange",
+          100
+        ]
+      ],
+      "img": "",
+      "cost": 21.49
+    },
+    {
+      "name": "Golden Shoe Sport",
+      "colours": [
+        [
+          "Red",
+          100
+        ],
+        [
+          "Orange",
+          100
+        ]
+      ],
+      "img": "",
+      "cost": 43.26
+    }
+  ],
+  "Returns": []
+}

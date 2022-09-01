@@ -1,15 +1,14 @@
 import NavBar from './NavBar'
 import ShopItem from './ShopItem'
-import Products from '../Assets/Products'
-import { useState, useEffect } from 'react'
+import { useState } from 'react'
 
-function Shop() {
-  const[products, setProducts] = useState(Products)
+function Shop({stock}) {
+  const[products, setProducts] = useState(stock)
     return (
       <div>
         <NavBar></NavBar>
         {
-          products.map((product) => (
+          stock.map((product) => (
             <ShopItem Product={product}/>
           ))
         }
